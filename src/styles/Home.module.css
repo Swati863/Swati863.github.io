@@ -1,0 +1,182 @@
+
+.home_container{
+    width: 100%;
+    margin: auto;
+}
+
+ .home_hi{
+    font-size: 30px;
+ }
+.home_data_container{
+
+    display: flex;
+   
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    margin-top:100px;
+    height:400px;
+    gap: 70px;
+}
+.home_text{
+
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+  
+    font-weight: bold;
+    
+}
+
+.home_image{
+    width:50%;
+    margin: auto;
+    
+}
+.home_image>img{
+    display: block;
+    margin: auto;
+    width:280px;
+    height:300px; 
+    border-radius: 50%;
+}
+.type_writer{
+    color:#cf3c58;
+    font-size:28px
+}
+.my_name{
+    font-size: 35px;
+}
+
+.connect_me{
+     margin-top: 15px;
+}
+.connect_icons{
+    
+    margin: auto;
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+
+
+@media screen and (min-width:450px) and (max-width:720px) {
+    
+
+    .home_container{
+
+width:100%
+    }
+    .home_data_container{
+
+        display: flex;
+      
+        justify-content: space-around;
+        width: 100%;
+        margin: auto;
+        margin-top:100px;
+        
+        height:300px;
+        gap: 60px;
+    }
+
+    .home_text{
+
+        font-size: 18px;
+        text-align: center;
+        margin: auto;
+        width: 50%;
+      
+        font-weight: bold;
+        
+    }
+
+    .type_writer{
+        color:#cf3c58;
+        font-size:16px
+    }
+    .my_name{
+        font-size: 20px;
+    }
+
+    .home_hi{
+        font-size: 20px;
+     }
+     .home_image{
+        width: 50%;
+
+     }
+    
+     .home_image>img{
+        display: block;
+        margin: auto;
+        width:190px;
+        height:200px; 
+        border-radius: 50%;
+    }
+
+}
+
+@media screen and (min-width:100px) and (max-width:450px) {
+    
+.home_container{
+    width: 100%;
+    margin: auto;
+}
+    .home_data_container{
+
+        display: flex;
+        flex-direction: column-reverse;
+       
+        
+        width: 100%;
+        margin: auto;
+        margin-top:100px;
+      
+        height:500px;
+        gap: 40px;
+    }
+
+    .home_text{
+
+        font-size: 18px;
+        text-align: center;
+        margin: auto;
+        width: 50%;
+    
+        font-weight: bold;
+       
+        
+    }
+
+    .type_writer{
+        color:#cf3c58;
+        font-size:16px;
+       
+    }
+    .my_name{
+        font-size: 20px;
+    }
+
+    .home_hi{
+        font-size: 20px;
+     }
+    
+     .home_image{
+      
+        width:50%;
+        height:200px;
+     }
+     .home_image>img{
+       display: block;
+       margin:auto;
+        width:100%;
+        height:220px; 
+        border-radius: 50%;
+    }
+
+}

@@ -1,0 +1,92 @@
+.skill_heading {
+  font-size: 23px;
+  font-weight: bold;
+}
+.mainContainer{
+  width: 100%;
+}
+
+.skill_container {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+
+  gap: 60px;
+}
+.skill_container > div {
+  margin: auto;
+  height: 100px;
+  width: 100px;
+ 
+ 
+ 
+}
+.skill_container > div > img {
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (min-width: 450px) and (max-width: 720px) {
+  .skill_container {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    margin-left: 70px;
+
+    gap: 20px;
+  }
+  
+
+  .skill_container > div {
+    margin: auto;
+    height: 80px;
+    width: 80px;
+   
+    
+
+  }
+  .skill_container > div > img {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 450px) {
+  .mainContainer{
+    width: 100%;
+  }
+  .skill_container {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    
+
+    gap: 20px;
+  }
+
+  .skill_heading {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .skill_container > div {
+    margin: auto;
+    height: 60px;
+    width: 60px;
+  }
+  .skill_container > div > img {
+    height: 60px;
+    width: 60px;
+  }
+}

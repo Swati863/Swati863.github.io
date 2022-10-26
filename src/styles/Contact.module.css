@@ -1,0 +1,168 @@
+.contact_main_container{
+    
+    width: 100%;
+    padding:20px;
+}
+.contact_main_heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+.get_in_touch-green{
+    color:#cf3c58;
+    font-weight: bold;
+}
+
+.contact_container{
+   
+    
+    width: 100%;
+
+   
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+    gap:100px;
+
+}
+
+.get_in_touch_left{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.contact_icons_div{
+
+
+    margin-top: 30px;
+    display: flex;
+    font-size: 16px;
+    gap:30px;
+    align-items: center;
+    
+
+}
+.right{
+    margin-top:10px ;
+    width:40%;
+    border: 1px solid #cf3c58;
+    border-radius: 10px;
+    padding:10px;
+}
+.right input{
+    border: 1px solid #cf3c58;
+
+}
+.right_heading{
+    font-size: 21px;
+    font-weight: bold;
+}
+.name_email_div{
+    display: flex;
+    width: 100%;
+    gap:15px;
+   
+}
+
+.input_email{
+    width:60%
+
+}
+
+.input_name{
+    width: 30%;
+    margin-left: 13px;
+}
+.input_subject{
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+}
+.form{
+margin-top: 20px;
+}
+.text_area >textarea{
+    border: 1px solid #cf3c58;
+    border-radius: 10px;
+    width:95%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+@media screen and (min-width:450px) and (max-width:720px) {
+    
+   
+    .contact_container{
+        
+        flex-wrap: wrap;
+       
+       
+        width: 80%;
+        margin: auto;
+       
+        display: flex;
+        
+        gap:100px
+    
+    }
+
+    .right{
+        
+        width:95%;
+        margin: auto;
+        margin-top:10px ;
+        border: 1px solid #cf3c58;
+        border-radius: 10px;
+        padding:10px;
+    }
+
+}
+
+@media screen and (min-width:100px) and (max-width:450px) {
+    
+    .contact_main_container{
+       
+        width: 100%;
+       
+    }
+    .contact_container{
+        display: flex;
+        flex-wrap: wrap;
+      
+        width: 80%;
+        margin: auto;
+        
+        
+        
+        gap:100px
+    
+    }
+
+    .right{
+        
+        width:95%;
+        margin: auto;
+        margin-top:10px ;
+        border: 1px solid #cf3c58;
+        border-radius: 10px;
+        padding:10px;
+    }
+    .name_email_div{
+        display: flex;
+        width: 100%;
+        gap:13px;
+       
+    }
+    
+    .input_email{
+        width:60%
+    
+    }
+    
+    .input_name{
+        width: 30%;
+        margin-left: 8px;
+    }
+
+}

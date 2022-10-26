@@ -1,0 +1,195 @@
+
+
+.project_main_container{
+    width: 100%;
+    height: 900px;
+    margin: auto;
+ 
+}
+
+
+.project_heading{
+    
+    font-size: 30px;
+ font-weight: bold;
+
+}
+
+.project_container{
+    width:80%;
+    margin:auto;
+    margin-top: 60px;
+    display: grid;
+   
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    font-size: 14px;
+    font-weight: 550;
+    
+
+    gap: 30px;
+    
+   
+
+
+}
+
+.project_single_div{
+    margin: auto;
+    padding: 20px;
+    background-color: #e0e5e9;
+    color: black;
+   
+    border-radius: 15px;
+    height:380px;
+   
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.project-single_div:hover{
+
+    transform: scale(1.1);
+}
+
+.project_desc{
+    margin-top: 15px;
+    height:50px;
+    text-align: center;
+}
+
+
+
+
+
+.project_image{
+    
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+   
+}
+
+
+.git_icon img{
+    height: 20px;
+    width:20px
+    }
+    .icon_div{
+        width:50%;
+        margin: auto;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+     
+        align-items: center;
+       
+        gap:30px;
+    }
+
+    .web_link img{
+      
+        height: 20px;
+        width:20px
+    }
+    .tech_stacks{
+        display: grid;
+       
+        grid-template-columns: repeat(5,1fr);
+        width: 80%;
+        margin: auto;
+        margin-top:15px
+    
+
+    }
+    .tech_stacks >div >img{
+        width:25px;
+        height:25px
+
+    }
+
+    .tech_stacks_heading{
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    @media screen and (min-width:450px) and (max-width:720px){
+
+        .project_main_container{
+            width: 100%;
+           
+           
+
+        }
+        .project_container{
+           
+            width: 80%;
+            margin: auto;
+           
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: auto;
+            font-size: 13px;
+          
+        }
+
+        .tech_stacks{
+            display: grid;
+            width: 80%;
+            margin: auto;
+           
+            grid-template-columns: repeat(5,1fr);
+          
+            margin-top:45px
+          
+    
+        }
+        .project_heading{
+        width:40%;
+        margin:auto;
+            font-size: 24px;
+         font-weight: bold;
+        
+        
+        }
+        
+    }
+
+
+    
+    @media screen and (min-width:100px) and (max-width:450px){
+
+
+        .project_main_container{
+            width: 100%;
+            height:1300px;
+          
+
+        } .project_container{
+            width: 100%;
+           
+        }
+        .project_container{
+            width: 80%;
+           
+            margin: auto;
+           
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: auto;
+            font-size: 14px;
+            
+        }
+        .tech_stacks{
+            display: grid;
+           
+            grid-template-columns: repeat(5,1fr);
+            width: 80%;
+            margin: auto;
+            margin-top:20px
+         
+    
+        }
+       
+     } 
