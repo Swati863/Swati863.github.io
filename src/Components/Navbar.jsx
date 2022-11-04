@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink, Link, useNavigate } from "react-router-dom";
 // import styles from "../styles/Navbar.module.css";
 
 import {
@@ -19,6 +19,7 @@ import { FaMoon, FaSun } from "react-icons/fa";
 import { HamburgerIcon } from "@chakra-ui/icons";
 
 // NavLinks
+
 const baseStyle = {
   color: "black",
   textDecoration: "none",
@@ -26,12 +27,13 @@ const baseStyle = {
 
 const activeStyle = {
   color: "white",
-  textDecoration: "none",
+  textDecoration: "underline",
 };
 
-const Navbar = ({ projectsRef, infoRef, skillRef, contactRef, homeRef }) => {
+const Navbar = ({ projectsRef, infoRef, skillRef, contactRef, homeRef,ResumeRef }) => {
   const { colorMode, toggleColorMode } = useColorMode();
   // const { isOpen, onOpen, onClose } = useDisclosure();
+ 
 
   const handleScroll = (ref) => {
     window.scrollTo({
@@ -40,6 +42,12 @@ const Navbar = ({ projectsRef, infoRef, skillRef, contactRef, homeRef }) => {
       behavior: "smooth",
     });
   };
+
+  // const handleClick = () => {
+  //   window.location.replace("https://drive.google.com/file/d/1pYPIDAlmHd2xsZrrUZ7mNveWrkORSMWm/view")
+  // }
+
+
   return (
     <Box w="100%">
       <Flex
@@ -153,12 +161,20 @@ const Navbar = ({ projectsRef, infoRef, skillRef, contactRef, homeRef }) => {
               Contact 
             </NavLink>
           </Box>
-          <Box>
+  {/* Resume */}
+         <Box>
+        {/* <button className="resume-button" onClick={handleClick}>Resume </button> */}
+        <a  href="https://drive.google.com/file/d/1pYPIDAlmHd2xsZrrUZ7mNveWrkORSMWm/view" target="_blank" download rel="Swati-Resume">
+              Resume
+            </a>
+         </Box>
+
+          {/* <Box>
             <Button variant={"ghost"} onClick={toggleColorMode}>
               {" "}
               {colorMode === "light" ? <FaMoon /> : <FaSun />}
             </Button>
-          </Box>
+          </Box> */}
         </Flex>
 
         <Box
@@ -195,7 +211,7 @@ const Navbar = ({ projectsRef, infoRef, skillRef, contactRef, homeRef }) => {
                 to={"/skills"}
               >
                 {" "}
-                <MenuItem>Technical Skills</MenuItem>
+                <MenuItem> Skills</MenuItem>
               </Link>
 
               <Link
@@ -217,7 +233,16 @@ const Navbar = ({ projectsRef, infoRef, skillRef, contactRef, homeRef }) => {
               >
                 <MenuItem>Contact </MenuItem>
               </Link>
+
+              {/* Resume */}
+           
+                <MenuItem>   <a href="https://drive.google.com/file/d/1pYPIDAlmHd2xsZrrUZ7mNveWrkORSMWm/view" target="_blank" download rel="Swati-Resume">
+              Resume
+            </a> </MenuItem>
+             
+              
             </MenuList>
+            
           </Menu>
         </Box>
       </Flex>

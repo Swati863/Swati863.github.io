@@ -9,9 +9,9 @@ const Skills = () => {
 
   
   return (
-    <Box w="100%" >
+    <Box w="100%"   backgroundColor= "rgb(247, 232, 232)">
       <Box>
-        <Text fontWeight={"bold"} fontSize="38px" mb="30px" textDecoration={"underline"}>Skills</Text>
+        <Text fontWeight={"bold"} fontSize="38px" mb="30px" textDecoration={"underline"} color={"#cf3c58"} >Skills</Text>
       </Box>
       
 
@@ -167,7 +167,7 @@ const Skills = () => {
 
 {/* front end */}
 <Box>
-  <Box><Text fontSize="22px"  fontWeight="bold" mb="30px" mt="20px">Frontend</Text></Box>
+  <Box><Text fontSize="22px"  fontWeight="bold" mb="30px" mt="20px" color={" rgb(247, 232, 232)"}>Frontend</Text></Box>
 <SimpleGrid
       columns={[2, 3, 4]}
       gap="20px"
@@ -181,6 +181,8 @@ const Skills = () => {
         p="10px"
         h={{ base: "80px", sm: "80px", md: "100px" }}
         m="auto"
+        backgroundColor={"white"}
+        borderRadius="10px"
       >
         <Image
           display="block"
@@ -196,6 +198,8 @@ const Skills = () => {
         p="10px"
         h={{ base: "80px", sm: "80px", md: "100px" }}
         m="auto"
+        backgroundColor={"white"}
+        borderRadius="10px"
       >
         <Image
           display="block"
@@ -211,6 +215,8 @@ const Skills = () => {
         p="10px"
         h={{ base: "80px", sm: "80px", md: "100px" }}
         m="auto"
+        backgroundColor={"white"}
+        borderRadius="10px"
       >
         <Image
           display="block"
@@ -226,6 +232,8 @@ const Skills = () => {
         p="10px"
         h={{ base: "80px", sm: "80px", md: "100px" }}
         m="auto"
+        backgroundColor={"white"}
+        borderRadius="10px"
       >
         <Image
           display="block"
@@ -241,6 +249,8 @@ const Skills = () => {
         p="10px"
         h={{ base: "80px", sm: "80px", md: "100px" }}
         m="auto"
+        backgroundColor={"white"}
+        borderRadius="10px"
       >
         <Image
           display="block"
@@ -256,6 +266,8 @@ const Skills = () => {
         p="10px"
         h={{ base: "80px", sm: "80px", md: "100px" }}
         m="auto"
+        backgroundColor={"white"}
+        borderRadius="10px"
       >
         <Image
           display="block"
@@ -273,6 +285,8 @@ const Skills = () => {
         p="10px"
         h={{ base: "80px", sm: "80px", md: "100px" }}
         m="auto"
+        backgroundColor={"white"}
+        borderRadius="10px"
       >
         <Image
           display="block"
@@ -289,6 +303,8 @@ const Skills = () => {
         p="10px"
         h={{ base: "80px", sm: "80px", md: "100px" }}
         m="auto"
+        backgroundColor={"white"}
+        borderRadius="10px"
       >
         <Image
           display="block"
@@ -304,7 +320,7 @@ const Skills = () => {
     {/*  Backend */}
 
     <Box>
-      <Box><Text fontSize="22px"  fontWeight="bold" mb="30px" mt="20px">Backend</Text></Box>
+      <Box><Text fontSize="22px"  fontWeight="bold" mb="30px" mt="20px" color={" rgb(247, 232, 232)"}>Backend</Text></Box>
       <SimpleGrid columns={[2, 3, 4]} 
         gap="20px"
         w={{ base: "80%", sm: "80%", md: "80%" }}
@@ -316,6 +332,8 @@ const Skills = () => {
           p="10px"
           h={{ base: "80px", sm: "80px", md: "100px" }}
           m="auto"
+          backgroundColor={"white"}
+          borderRadius="10px"
         >
           <Image
             display="block"
@@ -331,6 +349,8 @@ const Skills = () => {
           p="10px"
           h={{ base: "80px", sm: "80px", md: "100px" }}
           m="auto"
+          backgroundColor={"white"}
+          borderRadius="10px"
         >
           <Image
             display="block"
@@ -346,6 +366,8 @@ const Skills = () => {
           p="10px"
           h={{ base: "80px", sm: "80px", md: "100px" }}
           m="auto"
+          backgroundColor={"white"}
+          borderRadius="10px"
         >
           <Image
             display="block"
@@ -361,12 +383,32 @@ const Skills = () => {
           p="10px"
           h={{ base: "80px", sm: "80px", md: "100px" }}
           m="auto"
+          backgroundColor={"white"}
+          borderRadius="10px"
         >
           <Image
             display="block"
             w="100%"
             m="auto"
             src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongoose/mongoose.png"
+            alt="not-found"
+          />
+        </Box>
+
+        <Box
+          w={{ base: "80px", sm: "80px", md: "100px" }}
+          boxShadow="rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px"
+          p="10px"
+          h={{ base: "80px", sm: "80px", md: "100px" }}
+          m="auto"
+          backgroundColor={"white"}
+          borderRadius="10px"
+        >
+          <Image
+            display="block"
+            w="100%"
+            m="auto"
+            src="https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8"
             alt="not-found"
           />
         </Box>
@@ -378,7 +420,7 @@ const Skills = () => {
 
 {/* DSA */}
 
-    <Box>
+    {/* <Box>
       <Box><Text fontSize="22px"  fontWeight="bold" mb="30px" mt="20px">Data Structures & Algorithm</Text></Box>
       <Box display="flex" w={{ base: "80%", sm: "80%", md: "80%" }} 
       margin="auto"
@@ -405,11 +447,11 @@ const Skills = () => {
         
 
       </Box>
-    </Box>
+    </Box> */}
     
 
     {/* <Statistics/> */}
-    <Text fontWeight="bold" mt="30px" fontSize={{base:"18px",sm:"20px",md:"22px",lg:"28px"}} mb="30px"  textAlign="center" >
+    <Text fontWeight="bold" mt="30px" fontSize={{base:"18px",sm:"20px",md:"22px",lg:"28px"}} mb="30px"  textAlign="center" color={"#cf3c58"} >
         Statistics
       </Text>
       
@@ -421,7 +463,7 @@ const Skills = () => {
         </Flex>
 
         
-        <Box w="65%" m="auto"><Image m="auto"mt={{lg:"100px"}} w="100%" height={{base:"100px",sm:"140px"}} align="center" src="https://github-readme-stats.vercel.app/api?username=Swati863&show_icons=true&include_all_commits=true&count_private=true&hide=issues,contribs&border_radius=0&locale=en" alt=""  /></Box>
+        <Box w="65%" m="auto" ><Image m="auto"mt={{lg:"100px"}} w="100%" height={{base:"100px",sm:"140px"}} align="center" src="https://github-readme-stats.vercel.app/api?username=Swati863&show_icons=true&include_all_commits=true&count_private=true&hide=issues,contribs&border_radius=0&locale=en" alt=""  /></Box>
       
             
 
@@ -430,7 +472,7 @@ const Skills = () => {
 
   
 
-    <Box width="80%" m="auto" mt={{base:"0px",sm:"0px",md:"20px"}}>  <GitHubCalendar username="Swati863" style={{width:"100%",margin:"auto"}}    /></Box>
+    <Box width="80%" m="auto" mt={{base:"0px",sm:"0px",md:"20px"}} paddingBottom="20px" >  <GitHubCalendar username="Swati863" style={{width:"100%",margin:"auto"}}    /></Box>
         </Box>
     
     </Box>

@@ -8,6 +8,7 @@ import Contact from '../Pages/Contact'
 import Education from '../Pages/Education'
 import Home from '../Pages/Home'
 import Project from '../Pages/Project'
+import Resume from '../Pages/Resume'
 import Skills from '../Pages/Skills'
 
 
@@ -24,6 +25,7 @@ const AllRoutes = () => {
        
         <Route path="/projects" element={<Project/>}/>
         <Route path="/contact" element={<Contact/>}/>
+       
       
         </Routes>
 

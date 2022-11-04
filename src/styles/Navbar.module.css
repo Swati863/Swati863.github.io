@@ -24,7 +24,7 @@
   background-color: #cf3c58;
   font-weight: 700;
   letter-spacing: 1px;
- 
+
 
 
 }
@@ -42,6 +42,12 @@
 
 .theme-button{
   color:black
+}
+
+a:hover {
+     /* background-color: #cf3c58;
+     font-weight:bold; */
+     text-decoration: underline;
 }
 
 .nav_Links {
@@ -90,6 +96,7 @@
   display: block;
   
 }
+
 
 
 .nav_Image{

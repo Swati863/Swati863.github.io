@@ -28,7 +28,7 @@ function App() {
     <div className="item-container" ref={skillRef}><Skills /></div> 
     <div className="item-container" ref={projectsRef}><Project  /></div> 
     <div className="item-container-contact-section" ref={contactRef}><Contact  /></div> 
-    
+   
     </div>
   
   );
