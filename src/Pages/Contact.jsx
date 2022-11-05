@@ -12,7 +12,7 @@ const Contact = () => {
 
 
   return (
-    <Box w="100%" mb={{base:"200px",sm:"150px",md:"100px",lg:"300px"}}    backgroundColor= "rgb(247, 232, 232)" >
+    <Box w="100%" mb={{base:"200px",sm:"150px",md:"100px",lg:"300px"}} color={"black"} backgroundColor= "rgb(247, 232, 232)" >
       <Box textAlign={"center"}>
         <Text fontWeight={"bold"} color={"#cf3c58"} fontSize="29px" textDecoration={"underline"}>
           Contact Me
@@ -28,8 +28,7 @@ const Contact = () => {
        
 
           <Box mb="20px" textAlign={"left"}  mt="10px" fontWeight={"700"} fontSize="20px">
-            Connect with me and let's work together on something
-            exciting.
+            Connect with me and let's work together on exciting Projects.
           </Box>
 
           <Box>

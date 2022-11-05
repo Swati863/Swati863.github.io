@@ -21,7 +21,7 @@ import { HamburgerIcon } from "@chakra-ui/icons";
 // NavLinks
 
 const baseStyle = {
-  color: "black",
+   color: "black",
   textDecoration: "none",
 };
 
@@ -31,8 +31,8 @@ const activeStyle = {
 };
 
 const Navbar = ({ projectsRef, infoRef, skillRef, contactRef, homeRef,ResumeRef }) => {
-  const { colorMode, toggleColorMode } = useColorMode();
-  // const { isOpen, onOpen, onClose } = useDisclosure();
+  // const { colorMode, toggleColorMode } = useColorMode();
+
  
 
   const handleScroll = (ref) => {

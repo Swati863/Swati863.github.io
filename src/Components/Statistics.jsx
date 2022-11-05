@@ -19,7 +19,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <Box minW="100%" h="auto" pt="4rem">
+    <Box minW="100%" h="auto" pt="4rem" >
       <Heading textAlign="center" >
         Statistics
       </Heading>

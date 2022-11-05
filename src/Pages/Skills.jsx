@@ -466,13 +466,7 @@ const Skills = () => {
         <Box w="65%" m="auto" ><Image m="auto"mt={{lg:"100px"}} w="100%" height={{base:"100px",sm:"140px"}} align="center" src="https://github-readme-stats.vercel.app/api?username=Swati863&show_icons=true&include_all_commits=true&count_private=true&hide=issues,contribs&border_radius=0&locale=en" alt=""  /></Box>
       
             
-
-
-
-
-  
-
-    <Box width="80%" m="auto" mt={{base:"0px",sm:"0px",md:"20px"}} paddingBottom="20px" >  <GitHubCalendar username="Swati863" style={{width:"100%",margin:"auto"}}    /></Box>
+    <Box width="80%" m="auto" mt={{base:"0px",sm:"0px",md:"20px"}} paddingBottom="20px" >  <GitHubCalendar username="Swati863" style={{width:"100%",margin:"auto",color:"black"}}    /></Box>
         </Box>
     
     </Box>
